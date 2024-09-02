@@ -154,10 +154,10 @@ LVM과 RAID 모두 500GB 디스크 2개를 이용해 1TB의 저장 공간을 구
 
 - 환경변수 = env 셸 변수 = set
 
-  ## 소스 설치 방법으로 cmake
+## 소스 설치 방법으로 cmake
 
-  소스 설치 방법 cmake 선택 프로젝트 - MySQL, KDE, LMMS
+- 소스 설치 방법 cmake 선택 프로젝트 - MySQL, KDE, LMMS
 
- ### 디스플레이 매니저
+## 디스플레이 매니저
 사용자 로그인 및 세션 관리
 [ XDM ] [ GDM ] [ KDM ] 
