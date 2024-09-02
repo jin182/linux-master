@@ -86,9 +86,9 @@ alias [별명=명령어]
 - **-C**: 디렉터리 변경.
 
 ## Signal 코드
-- **SIGINT**: 2
-- **SIGQUIT**: 3
-- **SIGTSTP**: 20
+- **SIGINT**: 2 (Ctrl + C)
+- **SIGQUIT**: 3  (Ctrl + \)
+- **SIGTSTP**: 20  (Ctrl + Z)
 - **SIGCONT**: 18
 
 # 리눅스 파일 시스템 관리 명령어
