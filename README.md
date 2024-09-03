@@ -331,3 +331,19 @@ rpm -qV bash
 ### 프로토콜
 - /etc/services 모든 프로토콜, 포트번호
 - /etc/protocols '사용 가능한' 프로토콜들
+
+### 웰노운포트 정리
+- 20: FTP 데이터 전송 - TCP
+- 21: FTP 제어 (명령) - TCP
+- 22: SSH (Secure Shell) - TCP
+- 23: Telnet - TCP
+- 25: SMTP (Simple Mail Transfer Protocol) - TCP
+- 53: DNS (Domain Name System) - TCP/UDP 모두 사용. 주로 UDP 사용.
+- 80: HTTP (Hypertext Transfer Protocol) - TCP
+- 110: POP3 (Post Office Protocol version 3) - TCP
+- 143: IMAP (Internet Message Access Protocol) - TCP
+- 443: HTTPS (HTTP Secure) - TCP
+- 161: SNMP는 일반적으로 UDP
+- 162: SNMP의 알림 메시지를 수신하기 위해
+- 993: IMAPS (IMAP over SSL) - TCP
+- 995: POP3S (POP3 over SSL) - TCP
