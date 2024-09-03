@@ -322,4 +322,8 @@ rpm -qV bash
 
 
 - 고수준 : Xt, Xaw, Motif, FLTK, CTK+, Qt, TK, SDL
-- 저수준 : Xlib, XCB 이것도 
+- 저수준 : Xlib, XCB 이것도
+  
+### XCB
+- XCB는 컴퓨팅에서 X 윈도 시스템을 위한 C언어 결합이고, Xlib 대체가 목적입니다
+  참고로 Xlib은 C언어로 구현된 클라이언트 라이브러리이며 X서버와 대화해주는 역할이라고 합니다
