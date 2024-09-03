@@ -299,6 +299,7 @@ LVM은 논리적 볼륨을 효율적이고 유연하게 관리하기 위한 커�
 
 ### 예시 (Bash)
 
+
 ```bash
 # PS1 설정 예시
 PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
@@ -314,3 +315,11 @@ rpm -qip vim-enhanced-8.0.0-1.el7.x86_64.rpm
 
 # 패키지 'bash' 검증
 rpm -qV bash
+
+```
+
+### Xlib의 기능을 포함하는 고수준의 라이브러리
+
+
+- 고수준 : Xt, Xaw, Motif, FLTK, CTK+, Qt, TK, SDL
+- 저수준 : Xlib, XCB 이것도 
