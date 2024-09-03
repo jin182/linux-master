@@ -347,3 +347,8 @@ rpm -qV bash
 - 162: SNMP의 알림 메시지를 수신하기 위해
 - 993: IMAPS (IMAP over SSL) - TCP
 - 995: POP3S (POP3 over SSL) - TCP
+### 도메인 
+- net - 원래는 네트워크 관련 사이트용, 현재는 다목적
+- org - 단체, 조직을 위한 도메인. 원래는 gTLD 분류에 없는 기타 분류였으나, net같이 다목적
+- int - 국제법 절차에 따라 결성된 국제기관용
+- mil - 미군 전용. 따라서 mi.us나 mil.us는 없다.
