@@ -88,7 +88,9 @@ alias [별명=명령어]
 - **-j**: tar.bz2 압축 파일에 사용.
 - **-J**: xz 압축 파일에 사용.
 - **-C**: 디렉터리 변경.
-
+- cvf(create) - 생성
+- xvf(extratct) - 해제
+- tvf(list) - 목록
 ## Signal 코드
 - **SIGINT**: 2 (Ctrl + C)
 - **SIGQUIT**: 3  (Ctrl + `\`)
@@ -355,3 +357,4 @@ rpm -qV bash
 ### 패키지 구조
 - vsftpd - 2.2.2-24 .el6   .i686  .rpm
 [패키지이름]-[버전]-[릴리즈]-[아키텍처].rpmi
+
